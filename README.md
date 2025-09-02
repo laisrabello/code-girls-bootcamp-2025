@@ -3,7 +3,8 @@
 > Aqui você vai acompanhar minha jornada no Bootcamp Santander CODE GIRLS 2025.
 
 ## 📌 Quem sou eu
-Oi! Eu sou **Alexchê Hérica (Tchê)**, estudante de Ciências da Computação e Desenvolvedora Fullstack Java em formação. Neste repositório, vou registrar tudo que aprendo: módulos, desafios, mentorias e certificados.
+Olá! Eu sou **Laís Rabello**, graduada em Física, estudante de Engenharia Elétrica e Desenvolvedora Frontend em formação. Atualmente, sou estagiária de Tecnologia na Globo e busco expandir meus conhecimentos sobre Arquitetura, Redes e Computação em Nuvem.
+ Neste repositório, vou registrar tudo que aprendo: módulos, desafios, mentorias e certificados.
 
 ## 🚀 Meus objetivos
 - Completar toda a trilha do bootcamp  
@@ -12,7 +13,7 @@ Oi! Eu sou **Alexchê Hérica (Tchê)**, estudante de Ciências da Computação 
 
 ## 📁 O que tem aqui
 - `/modules/` — cursos organizados por módulos  
-- `/projects/` — desafios de projetos, desafios de códigos que desenvolvi  
+- `/projects/` — desafios de códigos que desenvolvi  
 - `/certificates/` — meus certificados
     
 ## 📝 Como navegar
@@ -24,8 +25,8 @@ Basta explorar as pastas `modules/`, `projects/` e `certificates/`! Cada projeto
 - Tecnologias: AWS (vou atualizar conforme avanço no bootcamp)  
 
 ## 📬 Quer falar comigo?
-- LinkedIn: https://www.linkedin.com/in/alexcheherica  
-- DIO: https://www.dio.me/users/alexcheherica
+- LinkedIn: https://www.linkedin.com/in/laispimentelrabello/
+- DIO: https://www.dio.me/users/lasa-ha
 
 
  
@@ -44,9 +45,9 @@ descrição:
 |:--    |:---- 								                                            |:----	                |:----  		                                                         |:----		    |:----:		  |
 |MO-1	|Introdução à AWS e Conceitos Básicos	                                        |	                    |			                                                             | 			    |             |
 |		|			 										                            |CURSO			        |Introdução ao Santander Code Girls 2025 - AWS Cloud Foundations         |1        	    |	✅		  |
-|		|			 										                            |CURSO			        |Introdução à AWS e ao Universo da Computação em Nuvem                   |1	   	        |	✅		  | 
-|		|													                            |CURSO			        |Fundamentos Essenciais da Infraestrutura AWS                            |1	    		|	✅	      |
-|		|													                            |CURSO			        |Configurando sua Conta AWS com Segurança e Eficiência                   |1			    |	✅		  |
+|		|			 										                            |CURSO			        |Introdução à AWS e ao Universo da Computação em Nuvem                   |1	   	        |			  | 
+|		|													                            |CURSO			        |Fundamentos Essenciais da Infraestrutura AWS                            |1	    		|		      |
+|		|													                            |CURSO			        |Configurando sua Conta AWS com Segurança e Eficiência                   |1			    |			  |
 |		|												                            	|CURSO	                |Primeiros Passos com Acesso Seguro e Controle de Custos na AWS          |1		        |			  |
 |		|													                            |MENTORIA		        |Live de Lançamento - Code Girls 2025                                    |1	    	    |			  |
 |MO-2 | Computação na Nuvem com EC2  			                                        |	   	                |				                                                         | 			    |             |
