@@ -45,7 +45,7 @@ descrição:
 |:--    |:---- 								                                            |:----	                |:----  		                                                         |:----		    |:----:		  |
 |MO-1	|Introdução à AWS e Conceitos Básicos	                                        |	                    |			                                                             | 			    |             |
 |		|			 										                            |CURSO			        |Introdução ao Santander Code Girls 2025 - AWS Cloud Foundations         |1        	    |	✅		  |
-|		|			 										                            |CURSO			        |Introdução à AWS e ao Universo da Computação em Nuvem                   |1	   	        |			  | 
+|		|			 										                            |CURSO			        |Introdução à AWS e ao Universo da Computação em Nuvem                   |1	   	        |	✅	   | 
 |		|													                            |CURSO			        |Fundamentos Essenciais da Infraestrutura AWS                            |1	    		|		      |
 |		|													                            |CURSO			        |Configurando sua Conta AWS com Segurança e Eficiência                   |1			    |			  |
 |		|												                            	|CURSO	                |Primeiros Passos com Acesso Seguro e Controle de Custos na AWS          |1		        |			  |
