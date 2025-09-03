@@ -27,4 +27,4 @@
 
 ---
 
-👉 **Em resumo:** este módulo detalha os **conceitos fundamentais da AWS**, como **regiões, zonas de disponibilidade e serviços gerenciados**, explicando como esses elementos garantem **resiliência, escalabilidade e flexibilidade** para diferentes necessidades de negócios.  
+👉 **Em resumo:** este curso detalha os **conceitos fundamentais da AWS**, como **regiões, zonas de disponibilidade e serviços gerenciados**, explicando como esses elementos garantem **resiliência, escalabilidade e flexibilidade** para diferentes necessidades de negócios.  
