@@ -46,13 +46,13 @@ descrição:
 |MO-1	|Introdução à AWS e Conceitos Básicos	                                        |	                    |			                                                             | 			    |             |
 |		|			 										                            |CURSO			        |Introdução ao Santander Code Girls 2025 - AWS Cloud Foundations         |1        	    |	✅		  |
 |		|			 										                            |CURSO			        |Introdução à AWS e ao Universo da Computação em Nuvem                   |1	   	        |	✅	   | 
-|		|													                            |CURSO			        |Fundamentos Essenciais da Infraestrutura AWS                            |1	    		|		      |
-|		|													                            |CURSO			        |Configurando sua Conta AWS com Segurança e Eficiência                   |1			    |			  |
-|		|												                            	|CURSO	                |Primeiros Passos com Acesso Seguro e Controle de Custos na AWS          |1		        |			  |
-|		|													                            |MENTORIA		        |Live de Lançamento - Code Girls 2025                                    |1	    	    |			  |
+|		|													                            |CURSO			        |Fundamentos Essenciais da Infraestrutura AWS                            |1	    		|	✅      |
+|		|													                            |CURSO			        |Configurando sua Conta AWS com Segurança e Eficiência                   |1			    |	✅	  |
+|		|												                            	|CURSO	                |Primeiros Passos com Acesso Seguro e Controle de Custos na AWS          |1		        |	✅	  |
+|		|													                            |MENTORIA		        |Live de Lançamento - Code Girls 2025                                    |1	    	    |	✅	  |
 |MO-2 | Computação na Nuvem com EC2  			                                        |	   	                |				                                                         | 			    |             |
-|		|													                            |CURSO			        |Entendendo as Instância EC2 e a Otimização de Recursos na AWS           |1	   		    |        	  |
-|		|											                                    |CURSO	                |Armazenamerento na Nuvem com amazon EBS e S3                            |1	            |			  |
+|		|													                            |CURSO			        |Entendendo as Instância EC2 e a Otimização de Recursos na AWS           |1	   		    |     ✅ 	  |
+|		|											                                    |CURSO	                |Armazenamerento na Nuvem com amazon EBS e S3                            |1	            |	✅	  |
 |		|												                                |DESAFIO DE PROJETO	    |Gerenciando Instâncias EC2 na AWS  	                                 |1    		    |		      |
 |MO-3 | Criando Recursos na AWS  				                                        |	                    |				                                                         |			    |			  |
 | 	    |											  	                                |CURSO			        |Criando sua Primeira Instância Amazon EC2                               |1	            |          	  |
