@@ -21,7 +21,8 @@ Basta explorar as pastas `modules/`, `projects/` e `certificates/`! Cada projeto
 
 ## 🔧 Ferramentas que uso
 - Git e GitHub  
-- Editor: VSCode  
+- Editor: VSCode
+- Draw.io  
 - Tecnologias: AWS (vou atualizar conforme avanço no bootcamp)  
 
 ## 📬 Quer falar comigo?
@@ -53,7 +54,7 @@ descrição:
 |MO-2 | Computação na Nuvem com EC2  			                                        |	   	                |				                                                         | 			    |             |
 |		|													                            |CURSO			        |Entendendo as Instância EC2 e a Otimização de Recursos na AWS           |1	   		    |     ✅ 	  |
 |		|											                                    |CURSO	                |Armazenamerento na Nuvem com amazon EBS e S3                            |1	            |	✅	  |
-|		|												                                |DESAFIO DE PROJETO	    |Gerenciando Instâncias EC2 na AWS  	                                 |1    		    |		      |
+|		|												                                |DESAFIO DE PROJETO	    |Gerenciando Instâncias EC2 na AWS  	                                 |1    		    |	✅      |
 |MO-3 | Criando Recursos na AWS  				                                        |	                    |				                                                         |			    |			  |
 | 	    |											  	                                |CURSO			        |Criando sua Primeira Instância Amazon EC2                               |1	            |          	  |
 | 	    |												                                |CURSO			        |Criando sua Primeiro Bucket no Amazon S3	   			                 |1			    |			  |

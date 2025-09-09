@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arquitetura do Sistema</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: hsl(267, 100%, 75%);
+      color: #333;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin-top: 50px;  
+      margin-bottom: 10px;
+      color: #ffffff;
+    }
+
+    p {
+      max-width: 700px;
+      margin: 0 auto 20px;
+      color: #ffffff;
+    }
+
+    .container {
+      position: relative;
+      display: inline-block;
+      margin: 100px auto; 
+    }
+
+    .container img {
+      max-width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    /* Marcadores interativos */
+    .marker {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background: #2563eb;
+      border-radius: 50%;
+      cursor: pointer;
+      border: 2px solid white;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    }
+
+    /* Tooltip */
+    .tooltip {
+      display: none;
+      position: absolute;
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 10px;
+      width: 240px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      font-size: 14px;
+      text-align: left;
+      z-index: 10;
+    }
+
+    .tooltip.active {
+      display: block;
+    }
+
+  </style>
+</head>
+<body>
+  <h1>Arquitetura do Sistema</h1>
+  <p>Clique nos pontos azuis da imagem para entender cada componente da arquitetura.</p>
+  
+  <div class="container">
+    <img src="arquitetura.png" alt="Desenho da Arquitetura">
+
+    <!-- Marcadores posicionados manualmente -->
+    <div class="marker" style="top: 88%; left: 14%;" data-info="👤 Usuário: acessa o sistema pelo navegador e visualiza o dashboard."></div>
+    <div class="marker" style="top: 58%; left: 14%;" data-info="🌐 CloudFront: serviço de CDN (Content Delivery Network) que distribui o dashboard de forma rápida e segura, reduzindo latência e aumentando a disponibilidade."></div>
+    <div class="marker" style="top: 30%; left: 15%;" data-info="🗂️ S3: armazena os arquivos estáticos do dashboard (HTML, CSS, JS)."></div>
+    <div class="marker" style="top: 67%; left: 34%;" data-info="🚪 API Gateway: ponto de entrada para as requisições feitas pelo usuário. Garante controle, segurança e escalabilidade para as chamadas de API."></div>
+    <div class="marker" style="top: 55%; left: 47%;" data-info="🖥️ Lambda: funções serverless que processam as requisições, aplicam regras de negócio e fazem a integração entre os serviços da nuvem e os sistemas On Premises."></div>
+    <div class="marker" style="top: 79%; left: 66%;" data-info="🗄️ Inventário de Equipamentos (On Premises): banco de dados/sistema local que mantém informações detalhadas dos equipamentos."></div>
+    <div class="marker" style="top: 55%; left: 91%;" data-info="🗄️ Software de Alterações (On Premises): Sistema local responsável por registrar alterações realizadas nos equipamentos."></div>
+    <div class="marker" style="top: 30%; left: 74%;" data-info="🔔 EventBridge: barramento de eventos que recebe alterações do sistema e as distribui para diferentes destinos de acordo com regras configuradas."></div>
+    <div class="marker" style="top: 12%; left: 36%;" data-info="📩 AWS SES é o serviço de envio de e-mails, usado para notificar os usuários sobre alterações relevantes no inventário."></div>
+    <div class="marker" style="top: 5%; left: 70%;" data-info="💬 Integração com o Microsoft Teams para envio de notificações diretamente em canais de comunicação da equipe."></div>
+    <div class="marker" style="top: 5%; left: 87%;" data-info="🔄 AWS AppSync/WebSocket é o responsável por atualizar em tempo real o dashboard do usuário sempre que um novo evento ocorre."></div>
+  </div>
+
+  <!-- Tooltip -->
+  <div id="tooltip" class="tooltip"></div>
+
+  <script>
+    const markers = document.querySelectorAll(".marker");
+    const tooltip = document.getElementById("tooltip");
+
+    markers.forEach(marker => {
+      marker.addEventListener("click", (e) => {
+        const info = marker.getAttribute("data-info");
+        tooltip.innerHTML = info;
+        tooltip.style.top = (marker.offsetTop + 25) + "px";
+        tooltip.style.left = (marker.offsetLeft + 25) + "px";
+        tooltip.classList.add("active");
+      });
+    });
+
+    // Fecha tooltip ao clicar fora
+    document.addEventListener("click", (e) => {
+      if (!e.target.classList.contains("marker")) {
+        tooltip.classList.remove("active");
+      }
+    });
+  </script>
+</body>
+</html>

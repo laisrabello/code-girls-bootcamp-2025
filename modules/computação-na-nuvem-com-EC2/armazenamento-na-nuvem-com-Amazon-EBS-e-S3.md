@@ -2,6 +2,7 @@
 
 ## Amazon EBS
 - Elastic Block Store(EBS): storage, altamente confiável, que pode ser anexado a uma instância EC2 como expansão de memória.
+- Fornece armazanamento em bloco fiável, também conhecido como volumes ou discos rígidos.
 - A memória que já vem na instância, é uma memória que comporta somente o sistema operacional.
 - O EBS é como um HD externo para comportar novas features.
 - Snapshot: permite backup e criação de novos volumes EBS. Ele é como uma foto instantânea do estado dos dados em nuvem, usada para backup, restauração e replicação rápida.

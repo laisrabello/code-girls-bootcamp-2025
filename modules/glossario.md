@@ -7,3 +7,4 @@
 5. **Lambda** - Serviço de computação serverless. Permite rodar funções/códigos sem precisar se preocupar com servidores;
 6. **VPC** - Virtual Private Cloud: Rede privada dentro da AWS. É onde ficam organizados seus serviços de forma segura e isolada;
 7. **CloudWatch** - Serviço de monitoramento e observabilidade. Permite acompanhar métricas, logs e criar alertas sobre os recursos da AWS.
+8. **Snapshot** - é basicamente uma cópia de segurança (backup) em nível de bloco de um volume EBS (Elastic Block Store).
