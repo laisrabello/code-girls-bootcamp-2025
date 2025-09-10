@@ -21,8 +21,7 @@ A ideia central é disponibilizar um dashboard acessível via navegador, que per
 
 ## 🖼️ Arquitetura do Sistema
 
-Você pode visualiar a imagem da Arquitetura no caminho abaixo. Ou também, você pode baixar a pasta Projeto01 na sua máquina e abrir em seu navegador o arquivo index.html que mostra a explicação de cada componente de uma forma mais dinâmica.
-[(Projeto01)](https://github.com/laisrabello/code-girls-bootcamp-2025/tree/main/projects/Projeto01)
+Você pode visualiar a imagem da Arquitetura acima. Ou também, você pode baixar a pasta Projeto01 na sua máquina e abrir em seu navegador o arquivo index.html que mostra a explicação de cada componente de uma forma mais dinâmica.
 
 ## 🔎 Explicação do Fluxo
 
